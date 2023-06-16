@@ -26,7 +26,7 @@ main {
   align-items: center;
   flex-wrap: wrap;
 }
-article {
+.qoute-container {
   width: clamp(270px, 45vw, 500px);
   height: clamp(100%, 40vw, 400px);
   background-color: rgba(90, 90, 90, 0.6);
@@ -45,7 +45,7 @@ main::after {
   content: "";
   width: clamp(290px, 50vw, 520px);
 }
-article q {
+.qoute-container q {
   text-align-last: center;
 }
 footer {
